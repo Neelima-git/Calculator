@@ -32,5 +32,9 @@ function clr(){
     document.calculator.result.value = "";
 }
 function equal(){
-    document.calculator.result.value = eval(document.calculator.result.value);
+    if(document.calculator.result.value == ""){
+        document.calculator.result.value = "";
+    } else{
+        document.calculator.result.value = eval(document.calculator.result.value);
+    }
 }
