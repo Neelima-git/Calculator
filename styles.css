@@ -74,9 +74,9 @@ input[type="text"]{
 
 button{
     border: none;
-    box-shadow: 5px 4px 0px 0px rgba(0,0,0,0.73);
--webkit-box-shadow: 5px 4px 0px 0px rgba(0,0,0,0.73);
--moz-box-shadow: 5px 4px 0px 0px rgba(0,0,0,0.73);
+    box-shadow: 5px 4px 0px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 5px 4px 0px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 5px 4px 0px 0px rgba(0,0,0,0.75);
 }
 button:hover{
     background: #412821;
